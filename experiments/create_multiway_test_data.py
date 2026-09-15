@@ -123,7 +123,7 @@ def main() -> None:
 
     project_root = Path(
         __file__
-    ).resolve().parent
+    ).resolve().parents[1]
 
     output_directory = (
         project_root

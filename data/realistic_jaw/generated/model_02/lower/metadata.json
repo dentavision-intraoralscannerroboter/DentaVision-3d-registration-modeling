@@ -1,0 +1,24 @@
+{
+  "model_id": "model_02",
+  "jaw": "lower",
+  "source_stl": "lower_jaw2.stl",
+  "reference_points": 120000,
+  "number_of_fragments": 4,
+  "nominal_overlap": 0.6,
+  "random_seed": 42,
+  "extent_x": 69.431640625,
+  "extent_y": 49.809303283691406,
+  "extent_z": 18.197394847869873,
+  "pca_primary_axis": [
+    0.998800093314132,
+    0.0451100306725587,
+    -0.019064593580829313
+  ],
+  "fragment_point_counts": [
+    53485,
+    51077,
+    54924,
+    59102
+  ],
+  "transform_convention": "x_observed = A_i @ x_world; ground_truth_pose = inv(A_i)"
+}
